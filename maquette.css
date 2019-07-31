@@ -1,0 +1,58 @@
+body
+{
+	font-family: verdana, arial, 'sans-serif';
+	width: 57%;
+	padding-right: 20%;
+	padding-left: 20%
+}
+
+h1
+{
+	font-weight: normal;
+}
+
+h2
+{
+	border-bottom: 1px grey solid;
+	font-weight: normal;
+}
+
+#overview
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cercle
+{
+	border: 1px grey solid;
+	border-radius:50%;
+	width:40px;
+	height:40px;
+	text-align: center;
+	padding: 5px;
+	align-items: center;
+}
+
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.gris
+{
+	background-color: #B6BEBD;
+}
+
+tr
+{
+	border-top: 1px grey solid;
+}
+
+td
+{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
